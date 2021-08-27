@@ -1,11 +1,12 @@
+import Header from 'components/header/Header';
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import routes from './routes';
 
-const Router = ({ Header, Footer }) => {
+const Router = () => {
   return (
     <BrowserRouter>
-      {Header && <Header />}
+      <Header />
       <Switch>
         {routes.map((r) => (
           <Route
@@ -16,7 +17,6 @@ const Router = ({ Header, Footer }) => {
           />
         ))}
       </Switch>
-      {Footer && <Footer />}
     </BrowserRouter>
   );
 };

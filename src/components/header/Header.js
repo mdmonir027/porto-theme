@@ -1,9 +1,12 @@
 import React from 'react';
+import MainHeader from './mainHeader/MainHeader';
+import TopHeader from './topHeader/TopHeader';
 
 const Header = () => {
   return (
     <div>
-      <h2>Header</h2>
+      <TopHeader />
+      <MainHeader />
     </div>
   );
 };
