@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply px-2 cursor-pointer py-1 inline-block rounded-sm;
+}
+
+.btn-primary {
+  @apply bg-primary-main text-white;
+}
+
+.btn-primary:hover {
+  @apply bg-primary-hover;
+}
+
+.btn-dark {
+  @apply bg-black-main text-white;
+}
+.btn-dark:hover {
+  @apply bg-black-hover;
+}

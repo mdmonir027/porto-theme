@@ -2,9 +2,9 @@ import React from 'react';
 
 const App = () => {
   return (
-    <div>
-      <h2>App</h2>
-      <i className='fab fa-facebook-f'></i>
+    <div className='mt-4 ml-4'>
+      <div className='btn btn-primary'> hhhhhh</div>
+      <div className='btn btn-dark'> hhhhhh</div>
     </div>
   );
 };
