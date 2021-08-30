@@ -3,6 +3,7 @@ import Counter from 'components/counter/Counter';
 import Featured from 'components/feature/Featured';
 import Hero from 'components/hero/Hero';
 import Team from 'components/team/Team';
+import Testimonials from 'components/testimonial/Testimonials';
 import React from 'react';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <About />
       <Team isHome />
       <Counter />
+      <Testimonials />
     </>
   );
 };

@@ -15,6 +15,7 @@ import Team5 from 'assets/images/team/5.jpg';
 import Team6 from 'assets/images/team/6.jpg';
 import Team7 from 'assets/images/team/7.jpg';
 import Team8 from 'assets/images/team/8.jpg';
+import Testimonial from 'assets/images/testimonial-bg.jpg';
 
 const images = {
   logo,
@@ -42,6 +43,7 @@ const images = {
     img7: Team7,
     img8: Team8,
   },
+  Testimonial,
 };
 
 export default images;
