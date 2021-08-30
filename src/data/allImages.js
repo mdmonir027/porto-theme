@@ -7,6 +7,14 @@ import FeaturedImg3 from 'assets/images/feature/3.png';
 import logo from 'assets/images/logo.png';
 import HeroImg1 from 'assets/images/slider/1.jpg';
 import HeroImg2 from 'assets/images/slider/2.jpg';
+import Team1 from 'assets/images/team/1.jpg';
+import Team2 from 'assets/images/team/2.jpg';
+import Team3 from 'assets/images/team/3.jpg';
+import Team4 from 'assets/images/team/4.jpg';
+import Team5 from 'assets/images/team/5.jpg';
+import Team6 from 'assets/images/team/6.jpg';
+import Team7 from 'assets/images/team/7.jpg';
+import Team8 from 'assets/images/team/8.jpg';
 
 const images = {
   logo,
@@ -23,6 +31,16 @@ const images = {
     img1: About1,
     img2: About2,
     img3: About3,
+  },
+  team: {
+    img1: Team1,
+    img2: Team2,
+    img3: Team3,
+    img4: Team4,
+    img5: Team5,
+    img6: Team6,
+    img7: Team7,
+    img8: Team8,
   },
 };
 
